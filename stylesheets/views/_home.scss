@@ -1,0 +1,409 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family:futura_lt_book1;
+  color:#fff;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.clearfix:after {
+  content: '';
+  clear: both;
+  display: block;
+  height: 0;
+  width: 0;
+}
+
+header {
+  width: 100%;
+  color: #000000;
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  background-color: #fff;
+  color:blue !important;
+  padding-bottom:1.5%;
+  padding-left: 18%;
+  padding-top: 1%;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+}
+
+/*Nav*/
+
+.clearfix:after {
+  content: '';
+  clear: both;
+  display: block;
+  height: 0;
+  width: 0;
+}
+
+.hide {
+    display: inline !important;
+  }
+
+/*Nav */
+
+.content {
+  clear: both;
+}
+
+.pageNum {
+  padding: 5px 10px;
+  border-radius: 100px;
+  margin: 10px;
+  display: inline-block;
+  background: #ddd;
+  cursor: pointer;
+  
+  &.navActive {
+    background: #bbb;
+    color: white;
+  }
+}
+
+.counter {
+  text-align: center;
+  position: absolute;
+  left: 78%;
+  top: 20%;
+  margin-top: -15px;
+  font-size: 15px;
+  color: #07586A;
+}
+
+/*End nav*/
+
+.background {
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  background-position: center;
+  color:white;
+}
+
+button {
+  color: #fff;
+  font-size: 18px;
+  margin: 0 auto;
+  position: relative;
+  width: 14%;
+  border: 0;
+  }
+
+button p {
+  font-size: 30px;
+  text-align: left;
+  padding-left: 7%;
+  padding-top: 3%;
+  margin: 0;
+}
+
+button div {
+    display: inline-block;
+  }
+
+button {
+    width: auto;
+    padding: 1.5% 2%;
+    font-size: 25px;
+    background-color: #5DB88D;
+  }
+
+/*Section 1*/
+
+section.one {
+  background-color:#8368AA;
+  button {
+    background-color: #5DB88D;
+  }
+}
+
+.white {
+  position: relative;
+  width: 100%;
+  height: 53%;
+  background-color: #fff;
+  margin-bottom:3%;
+  border-bottom: 4px solid #5DB88D;
+  .container {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+  h3 {
+    color: gray;
+    padding-bottom: 3%;
+    margin-top: 1%;
+  }
+}
+
+.content-logo-one {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 16%;
+}
+
+/*END section 1*/
+
+/*Section 2*/
+
+section.two {
+  background-image: url(../assets/img/02/fondo.png);
+  h4 {
+    color: rgba(0, 0, 0, 0.36);
+    font-family: futurastdheavyr;
+    font-size: 23px;
+  }
+  button {
+    width: auto;
+    background-color: #8368AA;
+    padding: 3% 6%;
+    font-size: 25px;
+  }
+}
+
+.menu-white {
+  background-color: #fff;
+  width: 100%;
+}
+
+.content-personaje-two {
+  position: absolute;
+  bottom: 0;
+  left: 18%;
+}
+
+.box {
+  padding-left: 6%;
+  padding-top: 38%;
+  h1 {
+    font-size: 42px;
+    padding-bottom: 1%;
+  }
+  h4 {
+    padding-bottom: 2%;
+    color: rgba(0, 0, 0, 0.36);
+    font-family: futurastdheavyr;
+    font-size: 23px;;
+  }
+}
+
+input {
+  width: 93%;
+  color: #000000;
+  height: 65px;
+  font-size: 33px;
+  padding-left: 3%;
+  /* color: #F9F7F7; */
+  margin-bottom: 8%;
+  border: none;
+}
+
+*::-webkit-input-placeholder {
+    /* Google Chrome y Safari */
+    color: #D2D2D2;
+}
+*:-moz-placeholder {
+    /* Firefox anterior a 19 */
+    color: #D2D2D2;
+}
+*::-moz-placeholder {
+    /* Firefox 19 y superior */
+    color: #D2D2D2;
+}
+*:-ms-input-placeholder {
+    /* Internet Explorer 10 y superior */
+    color: #D2D2D2;
+}
+
+/*END section 2/*
+
+/*Section 3*/
+
+section.three {
+  background-image: url(../assets/img/03/fondo.png);
+  .container {
+    padding-top: 7%;
+  }
+  ul li div{
+    display: inline-block;
+  }
+  ul li div:nth-child(2)  {
+    font-size: 21px;
+    padding-left: 2%;
+    margin-bottom: 0;
+  }
+  ul li {
+    padding-bottom: 2.7%;
+  }
+  h3 {
+    font-size: 22px;
+    margin: 0;
+    padding-bottom: 4%;
+  }
+    button {
+    width: auto;
+    background-color: #8368AA;
+    padding: 3% 6%;
+    font-size: 25px;
+  }
+}
+
+.box3 h1 {
+  margin-bottom: 0px;
+  margin-top:0px;
+  font-size: 50px;
+  padding-top: 8%;
+  padding-bottom: 0.5%;
+}
+
+/*END section3*/
+
+/*Section 4*/
+
+section.four {
+  background-color: #8368AA;
+  .box-white-four {
+    background-color: #fff;
+    height: 65%;
+    text-align: center;
+    padding-top: 14%;
+  }
+  ul li div {
+    display: inline-block;
+  }
+  ul li div.font-raid {
+    font-size: 30px;
+    color: #8368AA;
+  }
+  ul li div.font-raid {
+    padding-left: 2%;
+  }
+  button {
+    width: auto;
+    margin-top: 5%;
+    background-color: #8368AA;
+  }
+}
+
+/*END section 4*/
+
+/*Section 5 */
+
+section.five {
+  background-image: url(../assets/img/05/fondo.png);
+  .content-icon-five {
+    width: 5%;
+  }
+  .container{
+    padding-top: 2.5%;
+  }
+  ul li div, ul li p {
+    display: inline-block;
+    font-size: 30px;
+  }
+  ul li p {
+    padding-left: 2%;
+    margin-bottom: 0;
+  }
+  .fnt {
+    font-size: 17px;
+  }
+  .font-oblique {
+    font-family: FuturaLTMediumOblique2;
+  }
+}
+
+.quienes-somos, .mision, .vision, .conductas-culturales {
+    width: 195px;
+    height: 127px;
+    margin: 8px;
+    background-color: #fff;
+    color: #8368AA;
+    padding: 11% 0%;
+    float: left;
+    font-size: 18px;
+    text-align: center;
+}
+
+.box-grid div:hover {
+  border: 6px solid #DAD1E5;
+}
+
+.bgwhite {
+  background-color: #fff;
+}
+
+.content-personaje-five {
+  width: 100%;
+  padding-top: 32%;
+  padding-left: 30%;
+} 
+
+.box-grid {
+  width: 77%;
+  padding-top: 1%
+}
+
+/*END section 5*/
+
+/*Font*/
+@font-face {
+font-family: "AYearWithoutRain";
+src: url(../assets/fonts/AYearWithoutRain.ttf) format("truetype");
+}
+
+@font-face {
+font-family: "FuturaLTHeav";
+src: url(../assets/fonts/FuturaLTHeavy.ttf) format("truetype");
+}
+
+@font-face {
+font-family: "oblique";
+src: url(../assets/fonts/oblique.ttf) format("truetype");
+}
+
+@font-face {
+font-family: "futura_lt_book1";
+src: url(../assets/fonts/futura_lt_book1.ttf) format("truetype");
+}
+
+@font-face {
+font-family: "futurastdheavyr";
+src: url(../assets/fonts/futurastdheavy.ttf) format("truetype");
+}
+
+.font-raid {
+  font-family: AYearWithoutRain;
+}
+
+.font-theavy {
+  font-family:FuturaLTHeavy;
+}
+
+.font-oblique {
+  font-family:FuturaLTMediumOblique2;
+}
+
+.font-book {
+  font-family: futura_lt_book1;
+}
+
+.font-dheavy {
+  font-family: futurastdheavyr;
+}
