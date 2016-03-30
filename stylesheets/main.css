@@ -7507,4 +7507,213 @@ body {
   margin: 0;
   padding: 0; }
 
+/*RESPONSIVE*/
+img.rueda2{
+  position: relative;
+  z-index: 1;
+  left: 270px;
+  top: 140px;
+}  
+@media screen and (max-width:800px ) {
+  .content-personaje-two img {
+    visibility: hidden;
+    width: 100%;
+  }
+  .cuadro input {
+    width: 100%;
+    color: #000000;
+    height: 65px;
+    font-size: 30px;
+    padding-left: 3%;
+    margin-bottom: 8%;
+    border: none;
+  }
+  .quienes {
+    margin-top: 40px;
+    padding-top: 40px;
+  }
+  section.four button {
+    width: auto;
+    margin-top: 30%;
+    background-color: #8368AA;
+  }
+  .content-personaje-five {
+    width: 0;
+  }
+  .col-dm-3 {
+    width: 0; 
+  }
+  .content-personaje-five img {
+    vertical-align: middle;
+    visibility: hidden;
+    width: 100%;
+  }
+  section.five ul li p {
+    padding-left: 9%;
+    margin-bottom: 8px;
+  }
+  .quienes-somos, .mision, .vision, .conductas-culturales {
+    width: 200px;
+    height: 70px;
+    margin: 8px;
+    background-color: #fff;
+    color: #8368AA;
+    padding: 11% 0%;
+    float: left;
+    font-size: 18px;
+    text-align: center;
+  }
+  p.font-oblique {
+    margin-top: -14px;
+  }
+  .cuadrado {
+    background-color: #fff;
+    width: 254px;
+    height: 280px;
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: 45px;
+  }
+  .cuadrado-2 {
+    width: 239px;
+    height: 240px;
+    background-color: #fff;
+    color: #8368AA;
+    padding: 20% 0%;
+    float: left;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+  }
+  .equis {
+    position: absolute;
+    width: 19px;
+    left: 246px;
+    color: white;
+    background-color: #5DB88D;
+    padding: 2px 7px;
+    height: 19px;
+    font-size: 12px;
+  }
+  section.six .rueda-morada {
+    width: 200px;
+    height: 200px;
+    left: 7px;
+    top: 72px;
+    margin: 0px 8px;
+    padding: 0px 0px;
+    position: absolute;
+    z-index: 1;
+  }
+  section.six .cuadrado-rueda1 {
+    width: 355px;
+    height: 288px;
+    margin: 4px;
+    background-color: #fff;
+    color: #8368AA;
+    padding: 16% 24%;
+    float: left;
+    font-size: 18px;
+    position: relative;
+    top: 90px;
+    left: 116px;
+    padding-right: 27px;
+  }
+  section.six .indicador {
+    width: 75px;
+    height: 92px;
+    left: 69px;
+    top: 116px;
+    margin: 0px 8px;
+    padding: 0px 0px;
+    position: absolute;
+    z-index: 1;
+  }
+  section.six .one {
+    left: 65px;
+    top: 88px;
+    z-index: 1;
+  }
+  section.six .two {
+    left: 30px;
+    top: 155px;
+    z-index: 1;
+  }
+    section.six .three {
+    left: 68px;
+    top: 220px;
+    z-index: 1;
+  }
+  section.six .four {
+    left: 142px;
+    top: 218px;
+    z-index: 1;
+  }
+  section.six .five {
+    left: 184px;
+    top: 154px;
+    z-index: 1;
+  }
+  section.six .six {
+    left: 146px;
+    top: 85px;
+    z-index: 1;
+  }
+  section.six .indicador-text {
+    width: 63px;
+    left: 75px;
+    top: 157px;
+    margin: 0px 8px;
+    padding: 0px 0px;
+    position: absolute;
+    color: #FFFFFF;
+    font-size: bold;
+    text-align: center;
+    z-index: 1;
+  }
+ section.six button {
+  width: auto;
+  background-color: #8368AA;
+  padding: 3% 6%;
+  font-size: 25px;
+  margin-left: 109px;
+  margin-top: 50px;
+}
+  section.six .cuadrado-rueda2 {
+    width: 386px;
+    height: 341px;
+    margin: 4px;
+    background-color: #fff;
+    color: #8368AA;
+    padding: 2% 25%;
+    float: left;
+    font-size: 18px;
+    position: relative;
+    top: 90px;
+    left: 106px;
+    padding-right: 27px;
+  }
+  img.rueda2{
+    width: 60px;
+    height: 75px;
+    position: relative;
+    z-index: 1;
+    left: 68px;
+    top: 129px;
+  } 
+  .indicador-arrowless {
+    width: 75px;
+    height: 83px;
+    left: 69px;
+    top: 128px;
+    margin: 0px 8px;
+    padding: 0px 0px;
+    position: absolute;
+    z-index: 1;
+  }
+ .personaje-mujer img{
+  visibility: hidden;
+  width: 100%;
+  }
+}
 /*# sourceMappingURL=main.css.map */
